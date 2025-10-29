@@ -13,7 +13,6 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import type { Tool } from "@/lib/types";
 import { categories } from "@/lib/data";
-import { getPlaceholderImageDetails } from "@/lib/placeholder-images";
 
 interface ToolCardProps {
   tool: Tool;
@@ -21,23 +20,25 @@ interface ToolCardProps {
 
 export default function ToolCard({ tool }: ToolCardProps) {
   const category = categories.find((c) => c.id === tool.category);
-  const imageDetails = getPlaceholderImageDetails(tool.imageId);
+  const domain = new URL(tool.link).hostname;
+  const logoUrl = `https://logo.clearbit.com/${domain}`;
 
   return (
     <Card className="flex h-full flex-col overflow-hidden bg-card transition-all hover:shadow-lg hover:shadow-primary/20 hover:-translate-y-1">
       <CardHeader className="flex-row items-start gap-4 space-y-0">
-        {imageDetails && (
-          <div className="relative h-16 w-16 flex-shrink-0 overflow-hidden rounded-lg">
-            <Image
-              src={imageDetails.imageUrl}
-              alt={`${tool.name} logo`}
-              width={64}
-              height={64}
-              data-ai-hint={imageDetails.imageHint}
-              className="object-cover"
-            />
-          </div>
-        )}
+        <div className="relative h-16 w-16 flex-shrink-0 overflow-hidden rounded-lg">
+          <Image
+            src={logoUrl}
+            alt={`${tool.name} logo`}
+            width={64}
+            height={64}
+            onError={(e) => {
+              e.currentTarget.src = `https://via.placeholder.com/64?text=${tool.name.charAt(0)}`;
+              e.currentTarget.onerror = null;
+            }}
+            className="object-contain"
+          />
+        </div>
         <div className="flex-grow">
           <CardTitle className="font-headline text-xl">{tool.name}</CardTitle>
           {category && (
