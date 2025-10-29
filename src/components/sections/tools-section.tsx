@@ -19,12 +19,19 @@ export default function ToolsSection({
   onCategoryChange,
 }: ToolsSectionProps) {
   const filteredTools = useMemo(() => {
-    return tools.filter((tool) => {
+    const filtered = tools.filter((tool) => {
       const matchesCategory = !selectedCategory || tool.category === selectedCategory;
       const matchesSearch =
         tool.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
         tool.description.toLowerCase().includes(searchQuery.toLowerCase());
       return matchesCategory && matchesSearch;
+    });
+
+    // Sort to show sponsored tools first
+    return filtered.sort((a, b) => {
+      if (a.isSponsored && !b.isSponsored) return -1;
+      if (!a.isSponsored && b.isSponsored) return 1;
+      return 0;
     });
   }, [searchQuery, selectedCategory]);
 

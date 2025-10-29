@@ -119,6 +119,7 @@ export const tools: Tool[] = [
     link: "https://10web.io/",
     category: "web",
     imageId: "tool-10web",
+    isSponsored: true,
   },
   {
     id: "jasper",
@@ -127,6 +128,7 @@ export const tools: Tool[] = [
     link: "https://www.jasper.ai/",
     category: "writing",
     imageId: "tool-jasper",
+    isSponsored: true,
   },
   {
     id: "copy-ai",
@@ -158,7 +160,7 @@ export const tools: Tool[] = [
     description: "SEO tool that helps you write content that ranks.",
     link: "https://surferseo.com/",
     category: "marketing",
-imageId: "tool-surfer-seo",
+    imageId: "tool-surfer-seo",
   },
   {
     id: "semrush",

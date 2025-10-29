@@ -15,6 +15,7 @@ export interface Tool {
   category: string;
   imageId: string;
   affiliateLink?: string;
+  isSponsored?: boolean;
 }
 
 export interface Article {

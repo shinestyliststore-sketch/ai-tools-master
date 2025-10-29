@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowUpRight } from "lucide-react";
+import { ArrowUpRight, Award } from "lucide-react";
 import {
   Card,
   CardContent,
@@ -14,6 +14,7 @@ import { Badge } from "@/components/ui/badge";
 import type { Tool } from "@/lib/types";
 import { categories } from "@/lib/data";
 import { getPlaceholderImage } from "@/lib/placeholder-images";
+import { cn } from "@/lib/utils";
 
 interface ToolCardProps {
   tool: Tool;
@@ -39,7 +40,13 @@ export default function ToolCard({ tool }: ToolCardProps) {
   const visitLink = tool.affiliateLink || tool.link;
 
   return (
-    <Card className="flex h-full flex-col overflow-hidden bg-card transition-all hover:shadow-lg hover:shadow-primary/20 hover:-translate-y-1">
+    <Card className={cn("flex h-full flex-col overflow-hidden bg-card transition-all hover:shadow-lg hover:shadow-primary/20 hover:-translate-y-1 relative", tool.isSponsored && "ring-2 ring-primary/80 shadow-primary/20")}>
+       {tool.isSponsored && (
+        <Badge className="absolute -top-3 -right-3 bg-primary hover:bg-primary text-primary-foreground">
+          <Award className="mr-1 h-4 w-4" />
+          Sponsored
+        </Badge>
+      )}
       <CardHeader className="flex-row items-start gap-4 space-y-0">
         <div className="relative h-16 w-16 flex-shrink-0 overflow-hidden rounded-lg">
           <Image
