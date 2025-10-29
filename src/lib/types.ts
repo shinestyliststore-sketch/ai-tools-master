@@ -14,6 +14,7 @@ export interface Tool {
   link: string;
   category: string;
   imageId: string;
+  affiliateLink?: string;
 }
 
 export interface Article {

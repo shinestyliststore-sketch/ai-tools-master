@@ -36,6 +36,8 @@ export default function ToolCard({ tool }: ToolCardProps) {
     }
   }
 
+  const visitLink = tool.affiliateLink || tool.link;
+
   return (
     <Card className="flex h-full flex-col overflow-hidden bg-card transition-all hover:shadow-lg hover:shadow-primary/20 hover:-translate-y-1">
       <CardHeader className="flex-row items-start gap-4 space-y-0">
@@ -67,7 +69,7 @@ export default function ToolCard({ tool }: ToolCardProps) {
       </CardContent>
       <CardFooter>
         <Button asChild className="w-full" variant="outline">
-          <Link href={tool.link} target="_blank">
+          <Link href={visitLink} target="_blank">
             Visit Tool <ArrowUpRight className="ml-2 h-4 w-4" />
           </Link>
         </Button>
