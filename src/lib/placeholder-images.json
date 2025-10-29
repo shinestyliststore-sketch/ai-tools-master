@@ -45,589 +45,589 @@
     {
       "id": "tool-chatgpt",
       "description": "ChatGPT logo",
-      "imageUrl": "https://loremflickr.com/64/64/abstract,circle?lock=1",
+      "imageUrl": "https://images.unsplash.com/photo-1694932230191-23932a32c9c7?w=64&h=64&fit=crop",
       "imageHint": "abstract circle"
     },
     {
       "id": "tool-dalle",
       "description": "DALL·E 3 logo",
-      "imageUrl": "https://loremflickr.com/64/64/abstract,colorful?lock=2",
+      "imageUrl": "https://images.unsplash.com/photo-1634017835449-43093a1829d2?w=64&h=64&fit=crop",
       "imageHint": "abstract colorful"
     },
     {
       "id": "tool-midjourney",
       "description": "Midjourney logo",
-      "imageUrl": "https://loremflickr.com/64/64/abstract,boat?lock=3",
+      "imageUrl": "https://images.unsplash.com/photo-1667420138374-2e88c24a6a57?w=64&h=64&fit=crop",
       "imageHint": "abstract boat"
     },
     {
       "id": "tool-github-copilot",
       "description": "GitHub Copilot logo",
-      "imageUrl": "https://loremflickr.com/64/64/abstract,code?lock=4",
+      "imageUrl": "https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?w=64&h=64&fit=crop",
       "imageHint": "abstract code"
     },
     {
       "id": "tool-notion-ai",
       "description": "Notion AI logo",
-      "imageUrl": "https://loremflickr.com/64/64/abstract,block?lock=5",
+      "imageUrl": "https://images.unsplash.com/photo-1628867575249-3de325997235?w=64&h=64&fit=crop",
       "imageHint": "abstract block"
     },
     {
       "id": "tool-canva",
       "description": "Canva logo",
-      "imageUrl": "https://loremflickr.com/64/64/abstract,design?lock=6",
+      "imageUrl": "https://images.unsplash.com/photo-1611186871348-b1ce696e52c9?w=64&h=64&fit=crop",
       "imageHint": "abstract design"
     },
     {
       "id": "tool-grammarly",
       "description": "Grammarly logo",
-      "imageUrl": "https://loremflickr.com/64/64/abstract,letter?lock=7",
+      "imageUrl": "https://images.unsplash.com/photo-1611929959635-430b5c18118c?w=64&h=64&fit=crop",
       "imageHint": "abstract letter"
     },
     {
       "id": "tool-synthesia",
       "description": "Synthesia logo",
-      "imageUrl": "https://loremflickr.com/64/64/abstract,video?lock=8",
+      "imageUrl": "https://images.unsplash.com/photo-1543286386-71314a4262c?w=64&h=64&fit=crop",
       "imageHint": "abstract video"
     },
     {
       "id": "tool-10web",
       "description": "10Web logo",
-      "imageUrl": "https://loremflickr.com/64/64/abstract,web?lock=9",
+      "imageUrl": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=64&h=64&fit=crop",
       "imageHint": "abstract web"
     },
     {
       "id": "tool-jasper",
       "description": "Jasper logo",
-      "imageUrl": "https://loremflickr.com/64/64/abstract,robot?lock=10",
+      "imageUrl": "https://images.unsplash.com/photo-1581090464777-f3220bbe1b8b?w=64&h=64&fit=crop",
       "imageHint": "abstract robot"
     },
     {
       "id": "tool-copy-ai",
       "description": "Copy.ai logo",
-      "imageUrl": "https://loremflickr.com/64/64/abstract,pen?lock=11",
+      "imageUrl": "https://images.unsplash.com/photo-1483058712412-4245e9b90334?w=64&h=64&fit=crop",
       "imageHint": "abstract pen"
     },
     {
       "id": "tool-rytr",
       "description": "Rytr logo",
-      "imageUrl": "https://loremflickr.com/64/64/abstract,writer?lock=12",
+      "imageUrl": "https://images.unsplash.com/photo-1586348943529-bea3660c49ae?w=64&h=64&fit=crop",
       "imageHint": "abstract writer"
     },
     {
       "id": "tool-frase",
       "description": "Frase logo",
-      "imageUrl": "https://loremflickr.com/64/64/abstract,document?lock=13",
+      "imageUrl": "https://images.unsplash.com/photo-1456324504439-367cee3b3c32?w=64&h=64&fit=crop",
       "imageHint": "abstract document"
     },
     {
       "id": "tool-surfer-seo",
       "description": "Surfer SEO logo",
-      "imageUrl": "https://loremflickr.com/64/64/abstract,wave?lock=14",
+      "imageUrl": "https://images.unsplash.com/photo-1520412099554-645053494294?w=64&h=64&fit=crop",
       "imageHint": "abstract wave"
     },
     {
       "id": "tool-semrush",
       "description": "Semrush logo",
-      "imageUrl": "https://loremflickr.com/64/64/abstract,chart?lock=15",
+      "imageUrl": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=64&h=64&fit=crop",
       "imageHint": "abstract chart"
     },
     {
       "id": "tool-ahrefs",
       "description": "Ahrefs logo",
-      "imageUrl": "https://loremflickr.com/64/64/abstract,link?lock=16",
+      "imageUrl": "https://images.unsplash.com/photo-1556740758-90de374c12ad?w=64&h=64&fit=crop",
       "imageHint": "abstract link"
     },
     {
       "id": "tool-moz",
       "description": "Moz logo",
-      "imageUrl": "https://loremflickr.com/64/64/abstract,magnifying?lock=17",
-      "imageHint": "abstract magnifying glass"
+      "imageUrl": "https://images.unsplash.com/photo-1589825445248-03b30468339c?w=64&h=64&fit=crop",
+      "imageHint": "abstract magnifying"
     },
     {
       "id": "tool-hubspot",
       "description": "HubSpot logo",
-      "imageUrl": "https://loremflickr.com/64/64/abstract,sprocket?lock=18",
+      "imageUrl": "https://images.unsplash.com/photo-1600880292210-252c71cf5550?w=64&h=64&fit=crop",
       "imageHint": "abstract sprocket"
     },
     {
       "id": "tool-mailchimp",
       "description": "Mailchimp logo",
-      "imageUrl": "https://loremflickr.com/64/64/animal,chimp?lock=19",
+      "imageUrl": "https://images.unsplash.com/photo-1599305445671-ac291c95aaa9?w=64&h=64&fit=crop",
       "imageHint": "animal chimp"
     },
     {
       "id": "tool-buffer",
       "description": "Buffer logo",
-      "imageUrl": "https://loremflickr.com/64/64/abstract,layers?lock=20",
+      "imageUrl": "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=64&h=64&fit=crop",
       "imageHint": "abstract layers"
     },
     {
       "id": "tool-hootsuite",
       "description": "Hootsuite logo",
-      "imageUrl": "https://loremflickr.com/64/64/animal,owl?lock=21",
+      "imageUrl": "https://images.unsplash.com/photo-1611605698335-8b1569810432?w=64&h=64&fit=crop",
       "imageHint": "animal owl"
     },
     {
       "id": "tool-framer",
       "description": "Framer logo",
-      "imageUrl": "https://loremflickr.com/64/64/abstract,geometry?lock=22",
+      "imageUrl": "https://images.unsplash.com/photo-1611224923853-80b1683b1c28?w=64&h=64&fit=crop",
       "imageHint": "abstract geometry"
     },
     {
       "id": "tool-webflow",
       "description": "Webflow logo",
-      "imageUrl": "https://loremflickr.com/64/64/abstract,flow?lock=23",
+      "imageUrl": "https://images.unsplash.com/photo-1611162618071-b39a2ec055fb?w=64&h=64&fit=crop",
       "imageHint": "abstract flow"
     },
     {
       "id": "tool-wix",
       "description": "Wix logo",
-      "imageUrl": "https://loremflickr.com/64/64/abstract,star?lock=24",
+      "imageUrl": "https://images.unsplash.com/photo-1611916656173-872f2a983359?w=64&h=64&fit=crop",
       "imageHint": "abstract star"
     },
     {
       "id": "tool-squarespace",
       "description": "Squarespace logo",
-      "imageUrl": "https://loremflickr.com/64/64/abstract,square?lock=25",
+      "imageUrl": "https://images.unsplash.com/photo-1611262588024-d12430b98920?w=64&h=64&fit=crop",
       "imageHint": "abstract square"
     },
     {
       "id": "tool-shopify",
       "description": "Shopify logo",
-      "imageUrl": "https://loremflickr.com/64/64/abstract,bag?lock=26",
+      "imageUrl": "https://images.unsplash.com/photo-1599305445671-ac291c95aaa9?w=64&h=64&fit=crop",
       "imageHint": "abstract bag"
     },
     {
       "id": "tool-bigcommerce",
       "description": "BigCommerce logo",
-      "imageUrl": "https://loremflickr.com/64/64/abstract,cart?lock=27",
+      "imageUrl": "https://images.unsplash.com/photo-1579226955034-173c1555169a?w=64&h=64&fit=crop",
       "imageHint": "abstract cart"
     },
     {
       "id": "tool-magento",
       "description": "Magento logo",
-      "imageUrl": "https://loremflickr.com/64/64/abstract,magic?lock=28",
+      "imageUrl": "https://images.unsplash.com/photo-1611162616605-c55c00645068?w=64&h=64&fit=crop",
       "imageHint": "abstract magic"
     },
     {
       "id": "tool-woocommerce",
       "description": "WooCommerce logo",
-      "imageUrl": "https://loremflickr.com/64/64/abstract,shop?lock=29",
+      "imageUrl": "https://images.unsplash.com/photo-1611162617400-a29953941243?w=64&h=64&fit=crop",
       "imageHint": "abstract shop"
     },
     {
       "id": "tool-elementor",
       "description": "Elementor logo",
-      "imageUrl": "https://loremflickr.com/64/64/abstract,element?lock=30",
+      "imageUrl": "https://images.unsplash.com/photo-1611162617263-ab59a2a7a2e4?w=64&h=64&fit=crop",
       "imageHint": "abstract element"
     },
     {
       "id": "tool-divi",
       "description": "Divi logo",
-      "imageUrl": "https://loremflickr.com/64/64/abstract,elegant?lock=31",
+      "imageUrl": "https://images.unsplash.com/photo-1611162616805-c54c356391d1?w=64&h=64&fit=crop",
       "imageHint": "abstract elegant"
     },
     {
       "id": "tool-figma",
       "description": "Figma logo",
-      "imageUrl": "https://loremflickr.com/64/64/abstract,shapes?lock=32",
+      "imageUrl": "https://images.unsplash.com/photo-1611224923853-80b1683b1c28?w=64&h=64&fit=crop",
       "imageHint": "abstract shapes"
     },
     {
       "id": "tool-sketch",
       "description": "Sketch logo",
-      "imageUrl": "https://loremflickr.com/64/64/abstract,diamond?lock=33",
+      "imageUrl": "https://images.unsplash.com/photo-1611916656173-872f2a983359?w=64&h=64&fit=crop",
       "imageHint": "abstract diamond"
     },
     {
       "id": "tool-adobe-xd",
       "description": "Adobe XD logo",
-      "imageUrl": "https://loremflickr.com/64/64/abstract,pink?lock=34",
+      "imageUrl": "https://images.unsplash.com/photo-1611162618071-b39a2ec055fb?w=64&h=64&fit=crop",
       "imageHint": "abstract pink"
     },
     {
       "id": "tool-invision",
       "description": "InVision logo",
-      "imageUrl": "https://loremflickr.com/64/64/abstract,vision?lock=35",
+      "imageUrl": "https://images.unsplash.com/photo-1611162617263-ab59a2a7a2e4?w=64&h=64&fit=crop",
       "imageHint": "abstract vision"
     },
     {
       "id": "tool-marvel",
       "description": "Marvel logo",
-      "imageUrl": "https://loremflickr.com/64/64/abstract,hero?lock=36",
+      "imageUrl": "https://images.unsplash.com/photo-1611162616805-c54c356391d1?w=64&h=64&fit=crop",
       "imageHint": "abstract hero"
     },
     {
       "id": "tool-zeplin",
       "description": "Zeplin logo",
-      "imageUrl": "https://loremflickr.com/64/64/abstract,balloon?lock=37",
+      "imageUrl": "https://images.unsplash.com/photo-1611162617400-a29953941243?w=64&h=64&fit=crop",
       "imageHint": "abstract balloon"
     },
     {
       "id": "tool-abstract",
       "description": "Abstract logo",
-      "imageUrl": "https://loremflickr.com/64/64/abstract,art?lock=38",
+      "imageUrl": "https://images.unsplash.com/photo-1541701494587-cb58502866ab?w=64&h=64&fit=crop",
       "imageHint": "abstract art"
     },
     {
       "id": "tool-loom",
       "description": "Loom logo",
-      "imageUrl": "https://loremflickr.com/64/64/abstract,thread?lock=39",
+      "imageUrl": "https://images.unsplash.com/photo-1611162616605-c55c00645068?w=64&h=64&fit=crop",
       "imageHint": "abstract thread"
     },
     {
       "id": "tool-slack",
       "description": "Slack logo",
-      "imageUrl": "https://loremflickr.com/64/64/abstract,hashtag?lock=40",
+      "imageUrl": "https://images.unsplash.com/photo-1611162618071-b39a2ec055fb?w=64&h=64&fit=crop",
       "imageHint": "abstract hashtag"
     },
     {
       "id": "tool-trello",
       "description": "Trello logo",
-      "imageUrl": "https://loremflickr.com/64/64/abstract,board?lock=41",
+      "imageUrl": "https://images.unsplash.com/photo-1611262588024-d12430b98920?w=64&h=64&fit=crop",
       "imageHint": "abstract board"
     },
     {
       "id": "tool-asana",
       "description": "Asana logo",
-      "imageUrl": "https://loremflickr.com/64/64/abstract,dots?lock=42",
+      "imageUrl": "https://images.unsplash.com/photo-1611916656173-872f2a983359?w=64&h=64&fit=crop",
       "imageHint": "abstract dots"
     },
     {
       "id": "tool-jira",
       "description": "Jira logo",
-      "imageUrl": "https://loremflickr.com/64/64/abstract,ticket?lock=43",
+      "imageUrl": "https://images.unsplash.com/photo-1611162617263-ab59a2a7a2e4?w=64&h=64&fit=crop",
       "imageHint": "abstract ticket"
     },
     {
       "id": "tool-confluence",
       "description": "Confluence logo",
-      "imageUrl": "https://loremflickr.com/64/64/abstract,pages?lock=44",
+      "imageUrl": "https://images.unsplash.com/photo-1611162616805-c54c356391d1?w=64&h=64&fit=crop",
       "imageHint": "abstract pages"
     },
     {
       "id": "tool-miro",
       "description": "Miro logo",
-      "imageUrl": "https://loremflickr.com/64/64/abstract,whiteboard?lock=45",
+      "imageUrl": "https://images.unsplash.com/photo-1611162617400-a29953941243?w=64&h=64&fit=crop",
       "imageHint": "abstract whiteboard"
     },
     {
       "id": "tool-mural",
       "description": "Mural logo",
-      "imageUrl": "https://loremflickr.com/64/64/abstract,wall?lock=46",
+      "imageUrl": "https://images.unsplash.com/photo-1611162616605-c55c00645068?w=64&h=64&fit=crop",
       "imageHint": "abstract wall"
     },
     {
       "id": "tool-airtable",
       "description": "Airtable logo",
-      "imageUrl": "https://loremflickr.com/64/64/abstract,table?lock=47",
+      "imageUrl": "https://images.unsplash.com/photo-1611224923853-80b1683b1c28?w=64&h=64&fit=crop",
       "imageHint": "abstract table"
     },
     {
       "id": "tool-zapier",
       "description": "Zapier logo",
-      "imageUrl": "https://loremflickr.com/64/64/abstract,zap?lock=48",
+      "imageUrl": "https://images.unsplash.com/photo-1611162618071-b39a2ec055fb?w=64&h=64&fit=crop",
       "imageHint": "abstract zap"
     },
     {
       "id": "tool-integromat",
       "description": "Integromat logo",
-      "imageUrl": "https://loremflickr.com/64/64/abstract,chain?lock=49",
+      "imageUrl": "https://images.unsplash.com/photo-1611262588024-d12430b98920?w=64&h=64&fit=crop",
       "imageHint": "abstract chain"
     },
     {
       "id": "tool-ifttt",
       "description": "IFTTT logo",
-      "imageUrl": "https://loremflickr.com/64/64/abstract,switch?lock=50",
+      "imageUrl": "https://images.unsplash.com/photo-1611916656173-872f2a983359?w=64&h=64&fit=crop",
       "imageHint": "abstract switch"
     },
     {
       "id": "tool-descript",
       "description": "Descript logo",
-      "imageUrl": "https://loremflickr.com/64/64/abstract,soundwave?lock=51",
+      "imageUrl": "https://images.unsplash.com/photo-1599420313434-453002824989?w=64&h=64&fit=crop",
       "imageHint": "abstract soundwave"
     },
     {
       "id": "tool-otter-ai",
       "description": "Otter.ai logo",
-      "imageUrl": "https://loremflickr.com/64/64/animal,otter?lock=52",
+      "imageUrl": "https://images.unsplash.com/photo-1549558549-475fe4f93b68?w=64&h=64&fit=crop",
       "imageHint": "animal otter"
     },
     {
       "id": "tool-fireflies-ai",
       "description": "Fireflies.ai logo",
-      "imageUrl": "https://loremflickr.com/64/64/animal,firefly?lock=53",
+      "imageUrl": "https://images.unsplash.com/photo-1527362950785-f48094a48243?w=64&h=64&fit=crop",
       "imageHint": "animal firefly"
     },
     {
       "id": "tool-elevenlabs",
       "description": "ElevenLabs logo",
-      "imageUrl": "https://loremflickr.com/64/64/abstract,voice?lock=54",
+      "imageUrl": "https://images.unsplash.com/photo-1510915228340-29c85a43dcfe?w=64&h=64&fit=crop",
       "imageHint": "abstract voice"
     },
     {
       "id": "tool-heygen",
       "description": "HeyGen logo",
-      "imageUrl": "https://loremflickr.com/64/64/abstract,avatar?lock=55",
+      "imageUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=64&h=64&fit=crop",
       "imageHint": "abstract avatar"
     },
     {
       "id": "tool-runway",
       "description": "Runway logo",
-      "imageUrl": "https://loremflickr.com/64/64/abstract,film?lock=56",
+      "imageUrl": "https://images.unsplash.com/photo-1485846234645-a62644f84728?w=64&h=64&fit=crop",
       "imageHint": "abstract film"
     },
     {
       "id": "tool-pika",
       "description": "Pika logo",
-      "imageUrl": "https://loremflickr.com/64/64/animal,pikachu?lock=57",
+      "imageUrl": "https://images.unsplash.com/photo-1554941452-9f3243a39a9c?w=64&h=64&fit=crop",
       "imageHint": "animal pikachu"
     },
     {
       "id": "tool-luma-ai",
       "description": "Luma AI logo",
-      "imageUrl": "https://loremflickr.com/64/64/abstract,3d?lock=58",
+      "imageUrl": "https://images.unsplash.com/photo-1617957689233-207e3cd3c610?w=64&h=64&fit=crop",
       "imageHint": "abstract 3d"
     },
     {
       "id": "tool-spline",
       "description": "Spline logo",
-      "imageUrl": "https://loremflickr.com/64/64/abstract,curve?lock=59",
+      "imageUrl": "https://images.unsplash.com/photo-1507652313519-d4e9174c762f?w=64&h=64&fit=crop",
       "imageHint": "abstract curve"
     },
     {
       "id": "tool-beautiful-ai",
       "description": "Beautiful.ai logo",
-      "imageUrl": "https://loremflickr.com/64/64/abstract,presentation?lock=60",
+      "imageUrl": "https://images.unsplash.com/photo-1516321497487-e288fb19713f?w=64&h=64&fit=crop",
       "imageHint": "abstract presentation"
     },
     {
       "id": "tool-tome",
       "description": "Tome logo",
-      "imageUrl": "https://loremflickr.com/64/64/abstract,book?lock=61",
+      "imageUrl": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=64&h=64&fit=crop",
       "imageHint": "abstract book"
     },
     {
       "id": "tool-gamma",
       "description": "Gamma logo",
-      "imageUrl": "https://loremflickr.com/64/64/abstract,gamma?lock=62",
+      "imageUrl": "https://images.unsplash.com/photo-1582719471384-894c7b5a8882?w=64&h=64&fit=crop",
       "imageHint": "abstract gamma"
     },
     {
       "id": "tool-claude",
       "description": "Claude logo",
-      "imageUrl": "https://loremflickr.com/64/64/abstract,cloud?lock=63",
+      "imageUrl": "https://images.unsplash.com/photo-1534088568595-a913193be8aa?w=64&h=64&fit=crop",
       "imageHint": "abstract cloud"
     },
     {
       "id": "tool-perplexity-ai",
       "description": "Perplexity AI logo",
-      "imageUrl": "https://loremflickr.com/64/64/abstract,maze?lock=64",
+      "imageUrl": "https://images.unsplash.com/photo-1529177536410-b80537346460?w=64&h=64&fit=crop",
       "imageHint": "abstract maze"
     },
     {
       "id": "tool-poe",
       "description": "Poe logo",
-      "imageUrl": "https://loremflickr.com/64/64/abstract,bird?lock=65",
+      "imageUrl": "https://images.unsplash.com/photo-1516632664-4c861732waitFor?w=64&h=64&fit=crop",
       "imageHint": "abstract bird"
     },
     {
       "id": "tool-bard",
       "description": "Google Gemini (Bard) logo",
-      "imageUrl": "https://loremflickr.com/64/64/abstract,galaxy?lock=66",
+      "imageUrl": "https://images.unsplash.com/photo-1614728263952-84ea256f9679?w=64&h=64&fit=crop",
       "imageHint": "abstract galaxy"
     },
     {
       "id": "tool-copilot",
       "description": "Microsoft Copilot logo",
-      "imageUrl": "https://loremflickr.com/64/64/abstract,pilot?lock=67",
+      "imageUrl": "https://images.unsplash.com/photo-1556484833-8c3506725843?w=64&h=64&fit=crop",
       "imageHint": "abstract pilot"
     },
     {
       "id": "tool-v0-dev",
       "description": "v0.dev logo",
-      "imageUrl": "https://loremflickr.com/64/64/abstract,zero?lock=68",
+      "imageUrl": "https://images.unsplash.com/photo-1515041219749-595b061c5e88?w=64&h=64&fit=crop",
       "imageHint": "abstract zero"
     },
     {
       "id": "tool-cursor",
       "description": "Cursor logo",
-      "imageUrl": "https://loremflickr.com/64/64/abstract,pointer?lock=69",
+      "imageUrl": "https://images.unsplash.com/photo-1579282240050-c3937e335835?w=64&h=64&fit=crop",
       "imageHint": "abstract pointer"
     },
     {
       "id": "tool-replit",
       "description": "Replit logo",
-      "imageUrl": "https://loremflickr.com/64/64/abstract,snake?lock=70",
+      "imageUrl": "https://images.unsplash.com/photo-1611162617263-ab59a2a7a2e4?w=64&h=64&fit=crop",
       "imageHint": "abstract snake"
     },
     {
       "id": "tool-codesandbox",
       "description": "CodeSandbox logo",
-      "imageUrl": "https://loremflickr.com/64/64/abstract,box?lock=71",
+      "imageUrl": "https://images.unsplash.com/photo-1580894908361-967195033215?w=64&h=64&fit=crop",
       "imageHint": "abstract box"
     },
     {
       "id": "tool-vercel",
       "description": "Vercel logo",
-      "imageUrl": "https://loremflickr.com/64/64/abstract,triangle?lock=72",
+      "imageUrl": "https://images.unsplash.com/photo-1618477388954-7852f32655ec?w=64&h=64&fit=crop",
       "imageHint": "abstract triangle"
     },
     {
       "id": "tool-netlify",
       "description": "Netlify logo",
-      "imageUrl": "https://loremflickr.com/64/64/abstract,net?lock=73",
+      "imageUrl": "https://images.unsplash.com/photo-1549692520-acc6669e2f0c?w=64&h=64&fit=crop",
       "imageHint": "abstract net"
     },
     {
       "id": "tool-firebase",
       "description": "Firebase logo",
-      "imageUrl": "https://loremflickr.com/64/64/abstract,fire?lock=74",
+      "imageUrl": "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=64&h=64&fit=crop",
       "imageHint": "abstract fire"
     },
     {
       "id": "tool-supabase",
       "description": "Supabase logo",
-      "imageUrl": "https://loremflickr.com/64/64/abstract,database?lock=75",
+      "imageUrl": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=64&h=64&fit=crop",
       "imageHint": "abstract database"
     },
     {
       "id": "tool-appwrite",
       "description": "Appwrite logo",
-      "imageUrl": "https://loremflickr.com/64/64/abstract,writing?lock=76",
+      "imageUrl": "https://images.unsplash.com/photo-1506784983877-45594efa4c85?w=64&h=64&fit=crop",
       "imageHint": "abstract writing"
     },
     {
       "id": "tool-docker",
       "description": "Docker logo",
-      "imageUrl": "https://loremflickr.com/64/64/animal,whale?lock=77",
+      "imageUrl": "https://images.unsplash.com/photo-1563170949-6b364435b8a4?w=64&h=64&fit=crop",
       "imageHint": "animal whale"
     },
     {
       "id": "tool-kubernetes",
       "description": "Kubernetes logo",
-      "imageUrl": "https://loremflickr.com/64/64/abstract,helm?lock=78",
+      "imageUrl": "https://images.unsplash.com/photo-1519638399535-1b036603ac77?w=64&h=64&fit=crop",
       "imageHint": "abstract helm"
     },
     {
       "id": "tool-terraform",
       "description": "Terraform logo",
-      "imageUrl": "https://loremflickr.com/64/64/abstract,cube?lock=79",
+      "imageUrl": "https://images.unsplash.com/photo-1552869579-14a59b204673?w=64&h=64&fit=crop",
       "imageHint": "abstract cube"
     },
     {
       "id": "tool-ansible",
       "description": "Ansible logo",
-      "imageUrl": "https://loremflickr.com/64/64/abstract,tower?lock=80",
+      "imageUrl": "https://images.unsplash.com/photo-1556155092-490a1ba16284?w=64&h=64&fit=crop",
       "imageHint": "abstract tower"
     },
     {
       "id": "tool-jenkins",
       "description": "Jenkins logo",
-      "imageUrl": "https://loremflickr.com/64/64/people,butler?lock=81",
+      "imageUrl": "https://images.unsplash.com/photo-1507591064343-cf35c6344535?w=64&h=64&fit=crop",
       "imageHint": "people butler"
     },
     {
       "id": "tool-gitlab",
       "description": "GitLab logo",
-      "imageUrl": "https://loremflickr.com/64/64/animal,fox?lock=82",
+      "imageUrl": "https://images.unsplash.com/photo-1556155092-490a1ba16284?w=64&h=64&fit=crop",
       "imageHint": "animal fox"
     },
     {
       "id": "tool-bitbucket",
       "description": "Bitbucket logo",
-      "imageUrl": "https://loremflickr.com/64/64/abstract,bucket?lock=83",
+      "imageUrl": "https://images.unsplash.com/photo-1520453003852-47083c65e434?w=64&h=64&fit=crop",
       "imageHint": "abstract bucket"
     },
     {
       "id": "tool-postman",
       "description": "Postman logo",
-      "imageUrl": "https://loremflickr.com/64/64/people,postman?lock=84",
+      "imageUrl": "https://images.unsplash.com/photo-1556155092-490a1ba16284?w=64&h=64&fit=crop",
       "imageHint": "people postman"
     },
     {
       "id": "tool-insomnia",
       "description": "Insomnia logo",
-      "imageUrl": "https://loremflickr.com/64/64/abstract,moon?lock=85",
+      "imageUrl": "https://images.unsplash.com/photo-1444703686981-a3abbc4d42e2?w=64&h=64&fit=crop",
       "imageHint": "abstract moon"
     },
     {
       "id": "tool-sentry",
       "description": "Sentry logo",
-      "imageUrl": "https://loremflickr.com/64/64/abstract,eye?lock=86",
+      "imageUrl": "https://images.unsplash.com/photo-1528892952494-48a3a3a4b95f?w=64&h=64&fit=crop",
       "imageHint": "abstract eye"
     },
     {
       "id": "tool-datadog",
       "description": "Datadog logo",
-      "imageUrl": "https://loremflickr.com/64/64/animal,dog?lock=87",
+      "imageUrl": "https://images.unsplash.com/photo-1556155092-490a1ba16284?w=64&h=64&fit=crop",
       "imageHint": "animal dog"
     },
     {
       "id": "tool-new-relic",
       "description": "New Relic logo",
-      "imageUrl": "https://loremflickr.com/64/64/abstract,artifact?lock=88",
+      "imageUrl": "https://images.unsplash.com/photo-1517420704952-d9f39e95b43e?w=64&h=64&fit=crop",
       "imageHint": "abstract artifact"
     },
     {
       "id": "tool-launchdarkly",
       "description": "LaunchDarkly logo",
-      "imageUrl": "https://loremflickr.com/64/64/abstract,rocket?lock=89",
+      "imageUrl": "https://images.unsplash.com/photo-1542626991-cbc4e62a8d87?w=64&h=64&fit=crop",
       "imageHint": "abstract rocket"
     },
     {
       "id": "tool-optimizely",
       "description": "Optimizely logo",
-      "imageUrl": "https://loremflickr.com/64/64/abstract,arrow?lock=90",
+      "imageUrl": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=64&h=64&fit=crop",
       "imageHint": "abstract arrow"
     },
     {
       "id": "tool-google-analytics",
       "description": "Google Analytics logo",
-      "imageUrl": "https://loremflickr.com/64/64/abstract,analytics?lock=91",
+      "imageUrl": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=64&h=64&fit=crop",
       "imageHint": "abstract analytics"
     },
     {
       "id": "tool-mixpanel",
       "description": "Mixpanel logo",
-      "imageUrl": "https://loremflickr.com/64/64/abstract,mix?lock=92",
+      "imageUrl": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=64&h=64&fit=crop",
       "imageHint": "abstract mix"
     },
     {
       "id": "tool-amplitude",
       "description": "Amplitude logo",
-      "imageUrl": "https://loremflickr.com/64/64/abstract,sound?lock=93",
+      "imageUrl": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=64&h=64&fit=crop",
       "imageHint": "abstract sound"
     },
     {
       "id": "tool-segment",
       "description": "Segment logo",
-      "imageUrl": "https://loremflickr.com/64/64/abstract,pie?lock=94",
+      "imageUrl": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=64&h=64&fit=crop",
       "imageHint": "abstract pie"
     },
     {
       "id": "tool-stripe",
       "description": "Stripe logo",
-      "imageUrl": "https://loremflickr.com/64/64/abstract,stripe?lock=95",
+      "imageUrl": "https://images.unsplash.com/photo-1556740738-b6a63e27c4df?w=64&h=64&fit=crop",
       "imageHint": "abstract stripe"
     },
     {
       "id": "tool-paypal",
       "description": "PayPal logo",
-      "imageUrl": "https://loremflickr.com/64/64/abstract,payment?lock=96",
+      "imageUrl": "https://images.unsplash.com/photo-1556740738-b6a63e27c4df?w=64&h=64&fit=crop",
       "imageHint": "abstract payment"
     },
     {
       "id": "tool-algolia",
       "description": "Algolia logo",
-      "imageUrl": "https://loremflickr.com/64/64/abstract,search?lock=97",
+      "imageUrl": "https://images.unsplash.com/photo-1503428593586-e225b39bddfe?w=64&h=64&fit=crop",
       "imageHint": "abstract search"
     },
     {
       "id": "tool-twilio",
       "description": "Twilio logo",
-      "imageUrl": "https://loremflickr.com/64/64/abstract,phone?lock=98",
+      "imageUrl": "https://images.unsplash.com/photo-1585252579163-9a3d4f820251?w=64&h=64&fit=crop",
       "imageHint": "abstract phone"
     },
     {
