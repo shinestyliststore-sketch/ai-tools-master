@@ -45,56 +45,590 @@
     {
       "id": "tool-chatgpt",
       "description": "ChatGPT logo",
-      "imageUrl": "https://images.unsplash.com/photo-1639603683079-7398c604497a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxsb2dvJTIwbGV0dGVyfGVufDB8fHx8MTc2MTc4MDA4NHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "logo letter"
+      "imageUrl": "https://loremflickr.com/64/64/abstract,circle?lock=1",
+      "imageHint": "abstract circle"
     },
     {
       "id": "tool-dalle",
       "description": "DALL·E 3 logo",
-      "imageUrl": "https://images.unsplash.com/photo-1755586258247-67f5148d76c3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8bG9nbyUyMGFic3RyYWN0fGVufDB8fHx8MTc2MTczODk3M3ww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "logo abstract"
+      "imageUrl": "https://loremflickr.com/64/64/abstract,colorful?lock=2",
+      "imageHint": "abstract colorful"
     },
     {
       "id": "tool-midjourney",
       "description": "Midjourney logo",
-      "imageUrl": "https://images.unsplash.com/photo-1691020661176-83e68e4d8b84?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxsb2dvJTIwc2hpcHxlbnwwfHx8fDE3NjE3ODAwODN8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "logo ship"
+      "imageUrl": "https://loremflickr.com/64/64/abstract,boat?lock=3",
+      "imageHint": "abstract boat"
     },
     {
       "id": "tool-github-copilot",
       "description": "GitHub Copilot logo",
-      "imageUrl": "https://images.unsplash.com/photo-1663770114127-4f61cb62b56d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxsb2dvJTIwY29kZXxlbnwwfHx8fDE3NjE3ODAwODR8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "logo code"
+      "imageUrl": "https://loremflickr.com/64/64/abstract,code?lock=4",
+      "imageHint": "abstract code"
     },
     {
       "id": "tool-notion-ai",
       "description": "Notion AI logo",
-      "imageUrl": "https://images.unsplash.com/photo-1633268783868-1d69c268de41?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxsb2dvJTIwYmxvY2t8ZW58MHx8fHwxNzYxNzgwMDg0fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "logo block"
+      "imageUrl": "https://loremflickr.com/64/64/abstract,block?lock=5",
+      "imageHint": "abstract block"
     },
     {
       "id": "tool-canva",
       "description": "Canva logo",
-      "imageUrl": "https://images.unsplash.com/photo-1655213675468-19558613ff75?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxsb2dvJTIwZGVzaWdufGVufDB8fHx8MTc2MTczMTg0NHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "logo design"
+      "imageUrl": "https://loremflickr.com/64/64/abstract,design?lock=6",
+      "imageHint": "abstract design"
     },
     {
       "id": "tool-grammarly",
       "description": "Grammarly logo",
-      "imageUrl": "https://images.unsplash.com/photo-1689554863353-0f113d14725e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxsb2dvJTIwbGV0dGVyJTIwR3xlbnwwfHx8fDE3NjE3ODAwODR8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "logo letter G"
+      "imageUrl": "https://loremflickr.com/64/64/abstract,letter?lock=7",
+      "imageHint": "abstract letter"
     },
     {
       "id": "tool-synthesia",
       "description": "Synthesia logo",
-      "imageUrl": "https://images.unsplash.com/photo-1662466767355-bdda21f993fc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxsb2dvJTIwdmlkZW98ZW58MHx8fHwxNzYxNzgwMDg0fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "logo video"
+      "imageUrl": "https://loremflickr.com/64/64/abstract,video?lock=8",
+      "imageHint": "abstract video"
     },
     {
       "id": "tool-10web",
       "description": "10Web logo",
-      "imageUrl": "https://images.unsplash.com/photo-1553895501-af9e282e7fc1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxsb2dvJTIwd2Vic2l0ZXxlbnwwfHx8fDE3NjE3ODAwODN8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "logo website"
+      "imageUrl": "https://loremflickr.com/64/64/abstract,web?lock=9",
+      "imageHint": "abstract web"
+    },
+    {
+      "id": "tool-jasper",
+      "description": "Jasper logo",
+      "imageUrl": "https://loremflickr.com/64/64/abstract,robot?lock=10",
+      "imageHint": "abstract robot"
+    },
+    {
+      "id": "tool-copy-ai",
+      "description": "Copy.ai logo",
+      "imageUrl": "https://loremflickr.com/64/64/abstract,pen?lock=11",
+      "imageHint": "abstract pen"
+    },
+    {
+      "id": "tool-rytr",
+      "description": "Rytr logo",
+      "imageUrl": "https://loremflickr.com/64/64/abstract,writer?lock=12",
+      "imageHint": "abstract writer"
+    },
+    {
+      "id": "tool-frase",
+      "description": "Frase logo",
+      "imageUrl": "https://loremflickr.com/64/64/abstract,document?lock=13",
+      "imageHint": "abstract document"
+    },
+    {
+      "id": "tool-surfer-seo",
+      "description": "Surfer SEO logo",
+      "imageUrl": "https://loremflickr.com/64/64/abstract,wave?lock=14",
+      "imageHint": "abstract wave"
+    },
+    {
+      "id": "tool-semrush",
+      "description": "Semrush logo",
+      "imageUrl": "https://loremflickr.com/64/64/abstract,chart?lock=15",
+      "imageHint": "abstract chart"
+    },
+    {
+      "id": "tool-ahrefs",
+      "description": "Ahrefs logo",
+      "imageUrl": "https://loremflickr.com/64/64/abstract,link?lock=16",
+      "imageHint": "abstract link"
+    },
+    {
+      "id": "tool-moz",
+      "description": "Moz logo",
+      "imageUrl": "https://loremflickr.com/64/64/abstract,magnifying?lock=17",
+      "imageHint": "abstract magnifying glass"
+    },
+    {
+      "id": "tool-hubspot",
+      "description": "HubSpot logo",
+      "imageUrl": "https://loremflickr.com/64/64/abstract,sprocket?lock=18",
+      "imageHint": "abstract sprocket"
+    },
+    {
+      "id": "tool-mailchimp",
+      "description": "Mailchimp logo",
+      "imageUrl": "https://loremflickr.com/64/64/animal,chimp?lock=19",
+      "imageHint": "animal chimp"
+    },
+    {
+      "id": "tool-buffer",
+      "description": "Buffer logo",
+      "imageUrl": "https://loremflickr.com/64/64/abstract,layers?lock=20",
+      "imageHint": "abstract layers"
+    },
+    {
+      "id": "tool-hootsuite",
+      "description": "Hootsuite logo",
+      "imageUrl": "https://loremflickr.com/64/64/animal,owl?lock=21",
+      "imageHint": "animal owl"
+    },
+    {
+      "id": "tool-framer",
+      "description": "Framer logo",
+      "imageUrl": "https://loremflickr.com/64/64/abstract,geometry?lock=22",
+      "imageHint": "abstract geometry"
+    },
+    {
+      "id": "tool-webflow",
+      "description": "Webflow logo",
+      "imageUrl": "https://loremflickr.com/64/64/abstract,flow?lock=23",
+      "imageHint": "abstract flow"
+    },
+    {
+      "id": "tool-wix",
+      "description": "Wix logo",
+      "imageUrl": "https://loremflickr.com/64/64/abstract,star?lock=24",
+      "imageHint": "abstract star"
+    },
+    {
+      "id": "tool-squarespace",
+      "description": "Squarespace logo",
+      "imageUrl": "https://loremflickr.com/64/64/abstract,square?lock=25",
+      "imageHint": "abstract square"
+    },
+    {
+      "id": "tool-shopify",
+      "description": "Shopify logo",
+      "imageUrl": "https://loremflickr.com/64/64/abstract,bag?lock=26",
+      "imageHint": "abstract bag"
+    },
+    {
+      "id": "tool-bigcommerce",
+      "description": "BigCommerce logo",
+      "imageUrl": "https://loremflickr.com/64/64/abstract,cart?lock=27",
+      "imageHint": "abstract cart"
+    },
+    {
+      "id": "tool-magento",
+      "description": "Magento logo",
+      "imageUrl": "https://loremflickr.com/64/64/abstract,magic?lock=28",
+      "imageHint": "abstract magic"
+    },
+    {
+      "id": "tool-woocommerce",
+      "description": "WooCommerce logo",
+      "imageUrl": "https://loremflickr.com/64/64/abstract,shop?lock=29",
+      "imageHint": "abstract shop"
+    },
+    {
+      "id": "tool-elementor",
+      "description": "Elementor logo",
+      "imageUrl": "https://loremflickr.com/64/64/abstract,element?lock=30",
+      "imageHint": "abstract element"
+    },
+    {
+      "id": "tool-divi",
+      "description": "Divi logo",
+      "imageUrl": "https://loremflickr.com/64/64/abstract,elegant?lock=31",
+      "imageHint": "abstract elegant"
+    },
+    {
+      "id": "tool-figma",
+      "description": "Figma logo",
+      "imageUrl": "https://loremflickr.com/64/64/abstract,shapes?lock=32",
+      "imageHint": "abstract shapes"
+    },
+    {
+      "id": "tool-sketch",
+      "description": "Sketch logo",
+      "imageUrl": "https://loremflickr.com/64/64/abstract,diamond?lock=33",
+      "imageHint": "abstract diamond"
+    },
+    {
+      "id": "tool-adobe-xd",
+      "description": "Adobe XD logo",
+      "imageUrl": "https://loremflickr.com/64/64/abstract,pink?lock=34",
+      "imageHint": "abstract pink"
+    },
+    {
+      "id": "tool-invision",
+      "description": "InVision logo",
+      "imageUrl": "https://loremflickr.com/64/64/abstract,vision?lock=35",
+      "imageHint": "abstract vision"
+    },
+    {
+      "id": "tool-marvel",
+      "description": "Marvel logo",
+      "imageUrl": "https://loremflickr.com/64/64/abstract,hero?lock=36",
+      "imageHint": "abstract hero"
+    },
+    {
+      "id": "tool-zeplin",
+      "description": "Zeplin logo",
+      "imageUrl": "https://loremflickr.com/64/64/abstract,balloon?lock=37",
+      "imageHint": "abstract balloon"
+    },
+    {
+      "id": "tool-abstract",
+      "description": "Abstract logo",
+      "imageUrl": "https://loremflickr.com/64/64/abstract,art?lock=38",
+      "imageHint": "abstract art"
+    },
+    {
+      "id": "tool-loom",
+      "description": "Loom logo",
+      "imageUrl": "https://loremflickr.com/64/64/abstract,thread?lock=39",
+      "imageHint": "abstract thread"
+    },
+    {
+      "id": "tool-slack",
+      "description": "Slack logo",
+      "imageUrl": "https://loremflickr.com/64/64/abstract,hashtag?lock=40",
+      "imageHint": "abstract hashtag"
+    },
+    {
+      "id": "tool-trello",
+      "description": "Trello logo",
+      "imageUrl": "https://loremflickr.com/64/64/abstract,board?lock=41",
+      "imageHint": "abstract board"
+    },
+    {
+      "id": "tool-asana",
+      "description": "Asana logo",
+      "imageUrl": "https://loremflickr.com/64/64/abstract,dots?lock=42",
+      "imageHint": "abstract dots"
+    },
+    {
+      "id": "tool-jira",
+      "description": "Jira logo",
+      "imageUrl": "https://loremflickr.com/64/64/abstract,ticket?lock=43",
+      "imageHint": "abstract ticket"
+    },
+    {
+      "id": "tool-confluence",
+      "description": "Confluence logo",
+      "imageUrl": "https://loremflickr.com/64/64/abstract,pages?lock=44",
+      "imageHint": "abstract pages"
+    },
+    {
+      "id": "tool-miro",
+      "description": "Miro logo",
+      "imageUrl": "https://loremflickr.com/64/64/abstract,whiteboard?lock=45",
+      "imageHint": "abstract whiteboard"
+    },
+    {
+      "id": "tool-mural",
+      "description": "Mural logo",
+      "imageUrl": "https://loremflickr.com/64/64/abstract,wall?lock=46",
+      "imageHint": "abstract wall"
+    },
+    {
+      "id": "tool-airtable",
+      "description": "Airtable logo",
+      "imageUrl": "https://loremflickr.com/64/64/abstract,table?lock=47",
+      "imageHint": "abstract table"
+    },
+    {
+      "id": "tool-zapier",
+      "description": "Zapier logo",
+      "imageUrl": "https://loremflickr.com/64/64/abstract,zap?lock=48",
+      "imageHint": "abstract zap"
+    },
+    {
+      "id": "tool-integromat",
+      "description": "Integromat logo",
+      "imageUrl": "https://loremflickr.com/64/64/abstract,chain?lock=49",
+      "imageHint": "abstract chain"
+    },
+    {
+      "id": "tool-ifttt",
+      "description": "IFTTT logo",
+      "imageUrl": "https://loremflickr.com/64/64/abstract,switch?lock=50",
+      "imageHint": "abstract switch"
+    },
+    {
+      "id": "tool-descript",
+      "description": "Descript logo",
+      "imageUrl": "https://loremflickr.com/64/64/abstract,soundwave?lock=51",
+      "imageHint": "abstract soundwave"
+    },
+    {
+      "id": "tool-otter-ai",
+      "description": "Otter.ai logo",
+      "imageUrl": "https://loremflickr.com/64/64/animal,otter?lock=52",
+      "imageHint": "animal otter"
+    },
+    {
+      "id": "tool-fireflies-ai",
+      "description": "Fireflies.ai logo",
+      "imageUrl": "https://loremflickr.com/64/64/animal,firefly?lock=53",
+      "imageHint": "animal firefly"
+    },
+    {
+      "id": "tool-elevenlabs",
+      "description": "ElevenLabs logo",
+      "imageUrl": "https://loremflickr.com/64/64/abstract,voice?lock=54",
+      "imageHint": "abstract voice"
+    },
+    {
+      "id": "tool-heygen",
+      "description": "HeyGen logo",
+      "imageUrl": "https://loremflickr.com/64/64/abstract,avatar?lock=55",
+      "imageHint": "abstract avatar"
+    },
+    {
+      "id": "tool-runway",
+      "description": "Runway logo",
+      "imageUrl": "https://loremflickr.com/64/64/abstract,film?lock=56",
+      "imageHint": "abstract film"
+    },
+    {
+      "id": "tool-pika",
+      "description": "Pika logo",
+      "imageUrl": "https://loremflickr.com/64/64/animal,pikachu?lock=57",
+      "imageHint": "animal pikachu"
+    },
+    {
+      "id": "tool-luma-ai",
+      "description": "Luma AI logo",
+      "imageUrl": "https://loremflickr.com/64/64/abstract,3d?lock=58",
+      "imageHint": "abstract 3d"
+    },
+    {
+      "id": "tool-spline",
+      "description": "Spline logo",
+      "imageUrl": "https://loremflickr.com/64/64/abstract,curve?lock=59",
+      "imageHint": "abstract curve"
+    },
+    {
+      "id": "tool-beautiful-ai",
+      "description": "Beautiful.ai logo",
+      "imageUrl": "https://loremflickr.com/64/64/abstract,presentation?lock=60",
+      "imageHint": "abstract presentation"
+    },
+    {
+      "id": "tool-tome",
+      "description": "Tome logo",
+      "imageUrl": "https://loremflickr.com/64/64/abstract,book?lock=61",
+      "imageHint": "abstract book"
+    },
+    {
+      "id": "tool-gamma",
+      "description": "Gamma logo",
+      "imageUrl": "https://loremflickr.com/64/64/abstract,gamma?lock=62",
+      "imageHint": "abstract gamma"
+    },
+    {
+      "id": "tool-claude",
+      "description": "Claude logo",
+      "imageUrl": "https://loremflickr.com/64/64/abstract,cloud?lock=63",
+      "imageHint": "abstract cloud"
+    },
+    {
+      "id": "tool-perplexity-ai",
+      "description": "Perplexity AI logo",
+      "imageUrl": "https://loremflickr.com/64/64/abstract,maze?lock=64",
+      "imageHint": "abstract maze"
+    },
+    {
+      "id": "tool-poe",
+      "description": "Poe logo",
+      "imageUrl": "https://loremflickr.com/64/64/abstract,bird?lock=65",
+      "imageHint": "abstract bird"
+    },
+    {
+      "id": "tool-bard",
+      "description": "Google Gemini (Bard) logo",
+      "imageUrl": "https://loremflickr.com/64/64/abstract,galaxy?lock=66",
+      "imageHint": "abstract galaxy"
+    },
+    {
+      "id": "tool-copilot",
+      "description": "Microsoft Copilot logo",
+      "imageUrl": "https://loremflickr.com/64/64/abstract,pilot?lock=67",
+      "imageHint": "abstract pilot"
+    },
+    {
+      "id": "tool-v0-dev",
+      "description": "v0.dev logo",
+      "imageUrl": "https://loremflickr.com/64/64/abstract,zero?lock=68",
+      "imageHint": "abstract zero"
+    },
+    {
+      "id": "tool-cursor",
+      "description": "Cursor logo",
+      "imageUrl": "https://loremflickr.com/64/64/abstract,pointer?lock=69",
+      "imageHint": "abstract pointer"
+    },
+    {
+      "id": "tool-replit",
+      "description": "Replit logo",
+      "imageUrl": "https://loremflickr.com/64/64/abstract,snake?lock=70",
+      "imageHint": "abstract snake"
+    },
+    {
+      "id": "tool-codesandbox",
+      "description": "CodeSandbox logo",
+      "imageUrl": "https://loremflickr.com/64/64/abstract,box?lock=71",
+      "imageHint": "abstract box"
+    },
+    {
+      "id": "tool-vercel",
+      "description": "Vercel logo",
+      "imageUrl": "https://loremflickr.com/64/64/abstract,triangle?lock=72",
+      "imageHint": "abstract triangle"
+    },
+    {
+      "id": "tool-netlify",
+      "description": "Netlify logo",
+      "imageUrl": "https://loremflickr.com/64/64/abstract,net?lock=73",
+      "imageHint": "abstract net"
+    },
+    {
+      "id": "tool-firebase",
+      "description": "Firebase logo",
+      "imageUrl": "https://loremflickr.com/64/64/abstract,fire?lock=74",
+      "imageHint": "abstract fire"
+    },
+    {
+      "id": "tool-supabase",
+      "description": "Supabase logo",
+      "imageUrl": "https://loremflickr.com/64/64/abstract,database?lock=75",
+      "imageHint": "abstract database"
+    },
+    {
+      "id": "tool-appwrite",
+      "description": "Appwrite logo",
+      "imageUrl": "https://loremflickr.com/64/64/abstract,writing?lock=76",
+      "imageHint": "abstract writing"
+    },
+    {
+      "id": "tool-docker",
+      "description": "Docker logo",
+      "imageUrl": "https://loremflickr.com/64/64/animal,whale?lock=77",
+      "imageHint": "animal whale"
+    },
+    {
+      "id": "tool-kubernetes",
+      "description": "Kubernetes logo",
+      "imageUrl": "https://loremflickr.com/64/64/abstract,helm?lock=78",
+      "imageHint": "abstract helm"
+    },
+    {
+      "id": "tool-terraform",
+      "description": "Terraform logo",
+      "imageUrl": "https://loremflickr.com/64/64/abstract,cube?lock=79",
+      "imageHint": "abstract cube"
+    },
+    {
+      "id": "tool-ansible",
+      "description": "Ansible logo",
+      "imageUrl": "https://loremflickr.com/64/64/abstract,tower?lock=80",
+      "imageHint": "abstract tower"
+    },
+    {
+      "id": "tool-jenkins",
+      "description": "Jenkins logo",
+      "imageUrl": "https://loremflickr.com/64/64/people,butler?lock=81",
+      "imageHint": "people butler"
+    },
+    {
+      "id": "tool-gitlab",
+      "description": "GitLab logo",
+      "imageUrl": "https://loremflickr.com/64/64/animal,fox?lock=82",
+      "imageHint": "animal fox"
+    },
+    {
+      "id": "tool-bitbucket",
+      "description": "Bitbucket logo",
+      "imageUrl": "https://loremflickr.com/64/64/abstract,bucket?lock=83",
+      "imageHint": "abstract bucket"
+    },
+    {
+      "id": "tool-postman",
+      "description": "Postman logo",
+      "imageUrl": "https://loremflickr.com/64/64/people,postman?lock=84",
+      "imageHint": "people postman"
+    },
+    {
+      "id": "tool-insomnia",
+      "description": "Insomnia logo",
+      "imageUrl": "https://loremflickr.com/64/64/abstract,moon?lock=85",
+      "imageHint": "abstract moon"
+    },
+    {
+      "id": "tool-sentry",
+      "description": "Sentry logo",
+      "imageUrl": "https://loremflickr.com/64/64/abstract,eye?lock=86",
+      "imageHint": "abstract eye"
+    },
+    {
+      "id": "tool-datadog",
+      "description": "Datadog logo",
+      "imageUrl": "https://loremflickr.com/64/64/animal,dog?lock=87",
+      "imageHint": "animal dog"
+    },
+    {
+      "id": "tool-new-relic",
+      "description": "New Relic logo",
+      "imageUrl": "https://loremflickr.com/64/64/abstract,artifact?lock=88",
+      "imageHint": "abstract artifact"
+    },
+    {
+      "id": "tool-launchdarkly",
+      "description": "LaunchDarkly logo",
+      "imageUrl": "https://loremflickr.com/64/64/abstract,rocket?lock=89",
+      "imageHint": "abstract rocket"
+    },
+    {
+      "id": "tool-optimizely",
+      "description": "Optimizely logo",
+      "imageUrl": "https://loremflickr.com/64/64/abstract,arrow?lock=90",
+      "imageHint": "abstract arrow"
+    },
+    {
+      "id": "tool-google-analytics",
+      "description": "Google Analytics logo",
+      "imageUrl": "https://loremflickr.com/64/64/abstract,analytics?lock=91",
+      "imageHint": "abstract analytics"
+    },
+    {
+      "id": "tool-mixpanel",
+      "description": "Mixpanel logo",
+      "imageUrl": "https://loremflickr.com/64/64/abstract,mix?lock=92",
+      "imageHint": "abstract mix"
+    },
+    {
+      "id": "tool-amplitude",
+      "description": "Amplitude logo",
+      "imageUrl": "https://loremflickr.com/64/64/abstract,sound?lock=93",
+      "imageHint": "abstract sound"
+    },
+    {
+      "id": "tool-segment",
+      "description": "Segment logo",
+      "imageUrl": "https://loremflickr.com/64/64/abstract,pie?lock=94",
+      "imageHint": "abstract pie"
+    },
+    {
+      "id": "tool-stripe",
+      "description": "Stripe logo",
+      "imageUrl": "https://loremflickr.com/64/64/abstract,stripe?lock=95",
+      "imageHint": "abstract stripe"
+    },
+    {
+      "id": "tool-paypal",
+      "description": "PayPal logo",
+      "imageUrl": "https://loremflickr.com/64/64/abstract,payment?lock=96",
+      "imageHint": "abstract payment"
+    },
+    {
+      "id": "tool-algolia",
+      "description": "Algolia logo",
+      "imageUrl": "https://loremflickr.com/64/64/abstract,search?lock=97",
+      "imageHint": "abstract search"
+    },
+    {
+      "id": "tool-twilio",
+      "description": "Twilio logo",
+      "imageUrl": "https://loremflickr.com/64/64/abstract,phone?lock=98",
+      "imageHint": "abstract phone"
     },
     {
       "id": "article-1",
