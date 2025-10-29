@@ -1,3 +1,118 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "hero-background",
+      "description": "Abstract AI background",
+      "imageUrl": "https://images.unsplash.com/photo-1563089145-599997674d42?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxhYnN0cmFjdCUyMHB1cnBsZXxlbnwwfHx8fDE3NjE2Nzk5Nzd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "abstract purple"
+    },
+    {
+      "id": "category-writing",
+      "description": "AI Writing icon",
+      "imageUrl": "https://images.unsplash.com/photo-1455390582262-044cdead277a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxwZW4lMjBwYXBlcnxlbnwwfHx8fDE3NjE3MjQ0MjB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "pen paper"
+    },
+    {
+      "id": "category-design",
+      "description": "AI Design icon",
+      "imageUrl": "https://images.unsplash.com/photo-1551192335-29371c6d5073?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8cGFsZXR0ZSUyMGFydHxlbnwwfHx8fDE3NjE3ODAwODN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "palette art"
+    },
+    {
+      "id": "category-web",
+      "description": "AI Web Build icon",
+      "imageUrl": "https://images.unsplash.com/photo-1628296499994-70face79ab36?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjb2RlJTIwYnJvd3NlcnxlbnwwfHx8fDE3NjE3NDg0MDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "code browser"
+    },
+    {
+      "id": "category-marketing",
+      "description": "AI Marketing icon",
+      "imageUrl": "https://images.unsplash.com/photo-1634117622592-114e3024ff27?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjaGFydCUyMGdyYXBofGVufDB8fHx8MTc2MTY3OTUwMnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "chart graph"
+    },
+    {
+      "id": "category-dev",
+      "description": "AI Developer icon",
+      "imageUrl": "https://images.unsplash.com/photo-1714846201670-1c5721196c7a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHx0ZXJtaW5hbCUyMGNvZGV8ZW58MHx8fHwxNzYxNzgwMDgzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "terminal code"
+    },
+    {
+      "id": "category-daily",
+      "description": "AI Daily Use icon",
+      "imageUrl": "https://images.unsplash.com/photo-1701673965717-51b7078a50cd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxjYWxlbmRhciUyMGNoZWNrbGlzdHxlbnwwfHx8fDE3NjE3ODAwODN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "calendar checklist"
+    },
+    {
+      "id": "tool-chatgpt",
+      "description": "ChatGPT logo",
+      "imageUrl": "https://images.unsplash.com/photo-1639603683079-7398c604497a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxsb2dvJTIwbGV0dGVyfGVufDB8fHx8MTc2MTc4MDA4NHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "logo letter"
+    },
+    {
+      "id": "tool-dalle",
+      "description": "DALL·E 3 logo",
+      "imageUrl": "https://images.unsplash.com/photo-1755586258247-67f5148d76c3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8bG9nbyUyMGFic3RyYWN0fGVufDB8fHx8MTc2MTczODk3M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "logo abstract"
+    },
+    {
+      "id": "tool-midjourney",
+      "description": "Midjourney logo",
+      "imageUrl": "https://images.unsplash.com/photo-1691020661176-83e68e4d8b84?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxsb2dvJTIwc2hpcHxlbnwwfHx8fDE3NjE3ODAwODN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "logo ship"
+    },
+    {
+      "id": "tool-github-copilot",
+      "description": "GitHub Copilot logo",
+      "imageUrl": "https://images.unsplash.com/photo-1663770114127-4f61cb62b56d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxsb2dvJTIwY29kZXxlbnwwfHx8fDE3NjE3ODAwODR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "logo code"
+    },
+    {
+      "id": "tool-notion-ai",
+      "description": "Notion AI logo",
+      "imageUrl": "https://images.unsplash.com/photo-1633268783868-1d69c268de41?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxsb2dvJTIwYmxvY2t8ZW58MHx8fHwxNzYxNzgwMDg0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "logo block"
+    },
+    {
+      "id": "tool-canva",
+      "description": "Canva logo",
+      "imageUrl": "https://images.unsplash.com/photo-1655213675468-19558613ff75?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxsb2dvJTIwZGVzaWdufGVufDB8fHx8MTc2MTczMTg0NHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "logo design"
+    },
+    {
+      "id": "tool-grammarly",
+      "description": "Grammarly logo",
+      "imageUrl": "https://images.unsplash.com/photo-1689554863353-0f113d14725e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxsb2dvJTIwbGV0dGVyJTIwR3xlbnwwfHx8fDE3NjE3ODAwODR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "logo letter G"
+    },
+    {
+      "id": "tool-synthesia",
+      "description": "Synthesia logo",
+      "imageUrl": "https://images.unsplash.com/photo-1662466767355-bdda21f993fc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxsb2dvJTIwdmlkZW98ZW58MHx8fHwxNzYxNzgwMDg0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "logo video"
+    },
+    {
+      "id": "tool-10web",
+      "description": "10Web logo",
+      "imageUrl": "https://images.unsplash.com/photo-1553895501-af9e282e7fc1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxsb2dvJTIwd2Vic2l0ZXxlbnwwfHx8fDE3NjE3ODAwODN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "logo website"
+    },
+    {
+      "id": "article-1",
+      "description": "Top 30 AI Tools article image",
+      "imageUrl": "https://images.unsplash.com/photo-1510906594845-bc082582c8cc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHx0ZWNobm9sb2d5JTIwYWJzdHJhY3R8ZW58MHx8fHwxNzYxNzMxNjkzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "technology abstract"
+    },
+    {
+      "id": "article-2",
+      "description": "AI in Marketing article image",
+      "imageUrl": "https://images.unsplash.com/photo-1676285437320-aa861c6967e8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtYXJrZXRpbmclMjBncmFwaHxlbnwwfHx8fDE3NjE3ODAwODR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "marketing graph"
+    },
+    {
+      "id": "article-3",
+      "description": "Future of web development with AI article image",
+      "imageUrl": "https://images.unsplash.com/photo-1613068687893-5e85b4638b56?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjb2RlJTIwZnV0dXJlfGVufDB8fHx8MTc2MTc4MDA4M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "code future"
+    }
+  ]
 }
