@@ -58,9 +58,9 @@ export const tools: Tool[] = [
   },
   {
     id: "dalle",
-    name: "DALL·E 3",
+    name: "DALL-E 3",
     description: "AI tool for generating images from text prompts.",
-    link: "https://openai.com/dall-e",
+    link: "https://openai.com/dall-e-3",
     category: "design",
     imageId: "tool-dalle",
   },
