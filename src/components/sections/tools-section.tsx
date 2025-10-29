@@ -1,3 +1,4 @@
+
 "use client";
 
 import { useMemo } from "react";
@@ -6,6 +7,7 @@ import ToolCard from "@/components/tool-card";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import type { Category } from "@/lib/types";
+import { ScrollArea, ScrollBar } from "../ui/scroll-area";
 
 interface ToolsSectionProps {
   searchQuery: string;
@@ -20,7 +22,8 @@ export default function ToolsSection({
 }: ToolsSectionProps) {
   const filteredTools = useMemo(() => {
     const filtered = tools.filter((tool) => {
-      const matchesCategory = !selectedCategory || tool.category === selectedCategory;
+      const matchesCategory =
+        !selectedCategory || tool.category === selectedCategory;
       const matchesSearch =
         tool.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
         tool.description.toLowerCase().includes(searchQuery.toLowerCase());
@@ -45,33 +48,39 @@ export default function ToolsSection({
           Filter by category or search to find the perfect tool for your needs.
         </p>
 
-        <div className="my-12 flex flex-wrap items-center justify-center gap-4">
-          <Button
-            variant={!selectedCategory ? "default" : "outline"}
-            onClick={() => onCategoryChange(null)}
-            className={cn(
-              "rounded-full",
-              !selectedCategory && "bg-primary text-primary-foreground hover:bg-primary/90"
-            )}
-          >
-            All
-          </Button>
-          {categories.map((category: Category) => (
+        <ScrollArea className="w-full whitespace-nowrap">
+          <div className="my-12 flex w-max gap-4 sm:justify-center">
             <Button
-              key={category.id}
-              variant={selectedCategory === category.id ? "default" : "outline"}
-              onClick={() => onCategoryChange(category.id)}
+              variant={!selectedCategory ? "default" : "outline"}
+              onClick={() => onCategoryChange(null)}
               className={cn(
                 "rounded-full",
-                selectedCategory === category.id &&
+                !selectedCategory &&
                   "bg-primary text-primary-foreground hover:bg-primary/90"
               )}
             >
-              <category.icon className="mr-2 h-4 w-4" />
-              {category.name}
+              All
             </Button>
-          ))}
-        </div>
+            {categories.map((category: Category) => (
+              <Button
+                key={category.id}
+                variant={
+                  selectedCategory === category.id ? "default" : "outline"
+                }
+                onClick={() => onCategoryChange(category.id)}
+                className={cn(
+                  "rounded-full",
+                  selectedCategory === category.id &&
+                    "bg-primary text-primary-foreground hover:bg-primary/90"
+                )}
+              >
+                <category.icon className="mr-2 h-4 w-4" />
+                {category.name}
+              </Button>
+            ))}
+          </div>
+          <ScrollBar orientation="horizontal" />
+        </ScrollArea>
 
         {filteredTools.length > 0 ? (
           <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
@@ -81,7 +90,9 @@ export default function ToolsSection({
           </div>
         ) : (
           <div className="mt-16 text-center">
-            <h3 className="font-headline text-2xl font-semibold">No Tools Found</h3>
+            <h3 className="font-headline text-2xl font-semibold">
+              No Tools Found
+            </h3>
             <p className="mt-2 text-muted-foreground">
               Try adjusting your search or filters.
             </p>

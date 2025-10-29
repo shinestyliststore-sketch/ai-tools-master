@@ -1,3 +1,4 @@
+
 "use client";
 
 import { useState } from "react";
@@ -29,10 +30,10 @@ export default function AuthModals() {
 
   return (
     <>
-      <Button variant="ghost" onClick={openLogin}>
+      <Button variant="ghost" onClick={openLogin} className="w-full justify-start sm:w-auto sm:justify-center">
         Login
       </Button>
-      <Button onClick={openSignup} variant="default" className="bg-primary hover:bg-primary/90 text-primary-foreground">
+      <Button onClick={openSignup} variant="default" className="bg-primary hover:bg-primary/90 text-primary-foreground w-full justify-start sm:w-auto sm:justify-center">
         Sign Up
       </Button>
 

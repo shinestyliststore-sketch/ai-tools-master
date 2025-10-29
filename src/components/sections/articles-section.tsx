@@ -1,3 +1,4 @@
+
 import { articles } from "@/lib/data";
 import ArticleCard from "@/components/article-card";
 import { Button } from "@/components/ui/button";
@@ -16,7 +17,7 @@ export default function ArticlesSection() {
           </p>
         </div>
 
-        <div className="mt-12 grid gap-8 md:grid-cols-1 lg:grid-cols-3">
+        <div className="mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
           {articles.map((article) => (
             <ArticleCard key={article.id} article={article} />
           ))}
