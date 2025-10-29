@@ -24,7 +24,7 @@ export default function ToolCard({ tool }: ToolCardProps) {
   
   let logoUrl: string;
 
-  if (tool.id === 'dalle') {
+  if (tool.id === 'dall-e-3') {
     logoUrl = getPlaceholderImage(tool.imageId);
   } else {
     try {
