@@ -13,6 +13,7 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import type { Tool } from "@/lib/types";
 import { categories } from "@/lib/data";
+import { getPlaceholderImage } from "@/lib/placeholder-images";
 
 interface ToolCardProps {
   tool: Tool;
@@ -20,8 +21,20 @@ interface ToolCardProps {
 
 export default function ToolCard({ tool }: ToolCardProps) {
   const category = categories.find((c) => c.id === tool.category);
-  const domain = new URL(tool.link).hostname;
-  const logoUrl = `https://logo.clearbit.com/${domain}`;
+  
+  let logoUrl: string;
+
+  if (tool.id === 'dalle') {
+    logoUrl = getPlaceholderImage(tool.imageId);
+  } else {
+    try {
+      const domain = new URL(tool.link).hostname;
+      logoUrl = `https://logo.clearbit.com/${domain}`;
+    } catch (error) {
+      console.error(`Invalid URL for tool ${tool.name}: ${tool.link}`);
+      logoUrl = `https://via.placeholder.com/64?text=${tool.name.charAt(0)}`;
+    }
+  }
 
   return (
     <Card className="flex h-full flex-col overflow-hidden bg-card transition-all hover:shadow-lg hover:shadow-primary/20 hover:-translate-y-1">
@@ -32,6 +45,7 @@ export default function ToolCard({ tool }: ToolCardProps) {
             alt={`${tool.name} logo`}
             width={64}
             height={64}
+            unoptimized={true} 
             onError={(e) => {
               e.currentTarget.src = `https://via.placeholder.com/64?text=${tool.name.charAt(0)}`;
               e.currentTarget.onerror = null;
