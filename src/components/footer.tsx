@@ -1,5 +1,6 @@
-import { Instagram, Youtube, Twitter, Linkedin } from "lucide-react";
+import { Instagram, Youtube, Twitter, Linkedin, Coffee } from "lucide-react";
 import Link from "next/link";
+import { Button } from "./ui/button";
 
 const socialLinks = [
   {
@@ -34,6 +35,12 @@ export default function Footer() {
           </p>
         </div>
         <div className="flex items-center gap-4 md:ml-auto">
+          <Button asChild variant="outline" size="sm">
+            <Link href="https://www.buymeacoffee.com/your-username" target="_blank" rel="noopener noreferrer">
+              <Coffee className="mr-2 h-4 w-4" />
+              Buy me a coffee
+            </Link>
+          </Button>
           {socialLinks.map((social) => (
             <Link
               key={social.name}
