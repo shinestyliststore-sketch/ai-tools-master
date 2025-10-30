@@ -1,102 +1,41 @@
-
 "use client";
 
 import Link from "next/link";
-import { BrainCircuit, Menu } from "lucide-react";
+import { BrainCircuit, Coffee } from "lucide-react";
 import AuthModals from "@/components/auth-modals";
-import { useState } from "react";
-import {
-  Sheet,
-  SheetContent,
-  SheetHeader,
-  SheetTitle,
-  SheetTrigger,
-  SheetClose,
-} from "@/components/ui/sheet";
-import { Button } from "./ui/button";
 
 export default function Header() {
-  const [isSheetOpen, setSheetOpen] = useState(false);
-
   return (
-    <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-      <div className="container flex h-14 max-w-screen-2xl items-center">
-        <Link
-          href="/"
-          className="mr-6 flex items-center space-x-2"
-          aria-label="AI Tools Master Home"
-        >
-          <BrainCircuit className="h-6 w-6 text-primary" />
-          <span className="font-bold font-headline sm:inline-block">
-            AI Tools Master
-          </span>
+    <header className="flex items-center justify-between p-4 px-8 bg-[#0a0a23] shadow-lg">
+      <Link href="/" className="flex items-center gap-2.5">
+        <BrainCircuit className="h-10 w-10 text-white" />
+        <h1 className="text-xl font-bold text-white">AI Tools Master</h1>
+      </Link>
+      <nav className="hidden md:flex items-center gap-2.5 text-sm">
+        <Link href="/#tools" className="text-gray-300 hover:text-accent font-medium px-2">
+          Tools
         </Link>
-        <nav className="hidden items-center gap-4 text-sm lg:flex lg:gap-6">
-          <Link
-            href="/#tools"
-            className="text-foreground/60 transition-colors hover:text-foreground/80"
-          >
-            Tools
-          </Link>
-          <Link
-            href="/#articles"
-            className="text-foreground/60 transition-colors hover:text-foreground/80"
-          >
-            Blog
-          </Link>
-          <Link
-            href="/categorize"
-            className="text-foreground/60 transition-colors hover:text-foreground/80"
-          >
-            Categorize
-          </Link>
-        </nav>
-        <div className="flex flex-1 items-center justify-end gap-2">
-          <div className="hidden sm:flex">
-            <AuthModals />
-          </div>
-          <Sheet open={isSheetOpen} onOpenChange={setSheetOpen}>
-            <SheetTrigger asChild>
-              <Button variant="ghost" size="icon" className="lg:hidden">
-                <Menu className="h-5 w-5" />
-                <span className="sr-only">Toggle Menu</span>
-              </Button>
-            </SheetTrigger>
-            <SheetContent side="left" className="pt-12">
-              <SheetHeader>
-                <SheetTitle className="sr-only">Navigation</SheetTitle>
-              </SheetHeader>
-              <nav className="flex flex-col gap-6 text-lg font-medium">
-                <SheetClose asChild>
-                  <Link
-                    href="/#tools"
-                    className="text-foreground/60 transition-colors hover:text-foreground/80"
-                  >
-                    Tools
-                  </Link>
-                </SheetClose>
-                <SheetClose asChild>
-                  <Link
-                    href="/#articles"
-                    className="text-foreground/60 transition-colors hover:text-foreground/80"
-                  >
-                    Blog
-                  </Link>
-                </SheetClose>
-                <SheetClose asChild>
-                  <Link
-                    href="/categorize"
-                    className="text-foreground/60 transition-colors hover:text-foreground/80"
-                  >
-                    Categorize
-                  </Link>
-                </SheetClose>
-              </nav>
-              <div className="mt-8 flex flex-col gap-2">
-                 <AuthModals />
-              </div>
-            </SheetContent>
-          </Sheet>
+        <Link href="/#articles" className="text-gray-300 hover:text-accent font-medium px-2">
+          Blog
+        </Link>
+        <Link href="/categorize" className="text-gray-300 hover:text-accent font-medium px-2">
+          Categories
+        </Link>
+        <Link href="#" className="text-gray-300 hover:text-accent font-medium px-2">
+            About
+        </Link>
+      </nav>
+      <div className="flex items-center gap-4">
+        <Link
+          href="https://www.buymeacoffee.com/MD.Zahid"
+          target="_blank"
+          className="hidden md:inline-flex items-center gap-2 bg-[#f4b400] text-black px-4 py-2 rounded-lg font-semibold hover:bg-[#ffca28] transition-colors"
+        >
+          <Coffee className="h-4 w-4" />
+          Buy Me a Coffee
+        </Link>
+        <div className="md:hidden">
+          <AuthModals />
         </div>
       </div>
     </header>

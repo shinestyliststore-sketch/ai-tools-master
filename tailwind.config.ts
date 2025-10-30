@@ -19,9 +19,7 @@ const config = {
     },
     extend: {
       fontFamily: {
-        body: ["var(--font-inter)"],
-        headline: ["var(--font-space-grotesk)"],
-        code: ["var(--font-source-code-pro)"],
+        body: ["var(--font-poppins)", "sans-serif"],
       },
       colors: {
         border: "hsl(var(--border))",
