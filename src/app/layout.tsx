@@ -18,7 +18,7 @@ const sourceCodePro = Source_Code_Pro({
 });
 
 export const metadata: Metadata = {
-  title: "AIGearFinder",
+  title: "AI Tools Master",
   description: "Explore the Future with AI — Tools, Tips, and Trends",
 };
 

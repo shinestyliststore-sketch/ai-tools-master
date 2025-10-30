@@ -80,7 +80,7 @@ export default function AuthModals() {
           <DialogHeader>
             <DialogTitle className="font-headline text-2xl">Sign Up</DialogTitle>
             <DialogDescription>
-              Create an account to get started with AIGearFinder.
+              Create an account to get started with AI Tools Master.
             </DialogDescription>
           </DialogHeader>
           <div className="grid gap-4 py-4">

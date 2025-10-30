@@ -24,11 +24,11 @@ export default function Header() {
         <Link
           href="/"
           className="mr-6 flex items-center space-x-2"
-          aria-label="AIGearFinder Home"
+          aria-label="AI Tools Master Home"
         >
           <BrainCircuit className="h-6 w-6 text-primary" />
           <span className="font-bold font-headline sm:inline-block">
-            AIGearFinder
+            AI Tools Master
           </span>
         </Link>
         <nav className="hidden items-center gap-4 text-sm lg:flex lg:gap-6">
@@ -64,7 +64,7 @@ export default function Header() {
             </SheetTrigger>
             <SheetContent side="left" className="pt-12">
               <SheetHeader>
-                <SheetTitle className="sr-only">Navigation Menu</SheetTitle>
+                <SheetTitle className="sr-only">Navigation</SheetTitle>
               </SheetHeader>
               <nav className="flex flex-col gap-6 text-lg font-medium">
                 <SheetClose asChild>
