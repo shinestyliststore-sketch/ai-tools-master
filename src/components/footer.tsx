@@ -36,7 +36,7 @@ export default function Footer() {
         </div>
         <div className="flex items-center gap-4 md:ml-auto">
           <Button asChild variant="outline" size="sm">
-            <Link href="https://www.buymeacoffee.com/your-username" target="_blank" rel="noopener noreferrer">
+            <Link href="https://buymeacoffee.com/MD.Zahid" target="_blank" rel="noopener noreferrer">
               <Coffee className="mr-2 h-4 w-4" />
               Buy me a coffee
             </Link>
