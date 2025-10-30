@@ -8,6 +8,8 @@ import { useState } from "react";
 import {
   Sheet,
   SheetContent,
+  SheetHeader,
+  SheetTitle,
   SheetTrigger,
   SheetClose,
 } from "@/components/ui/sheet";
@@ -61,6 +63,9 @@ export default function Header() {
               </Button>
             </SheetTrigger>
             <SheetContent side="left" className="pt-12">
+              <SheetHeader>
+                <SheetTitle className="sr-only">Navigation Menu</SheetTitle>
+              </SheetHeader>
               <nav className="flex flex-col gap-6 text-lg font-medium">
                 <SheetClose asChild>
                   <Link
