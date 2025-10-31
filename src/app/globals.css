@@ -2,7 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
+@layer base {<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2753365010882256"
+     crossorigin="anonymous"></script>
   :root {
     --background: 248 78% 12%; /* #0a0a23 */
     --foreground: 0 0% 98%; /* white */
