@@ -17,6 +17,13 @@ export const metadata: Metadata = {
   title: "AI Tools Master",
   description: "Explore the Future with AI — Tools, Tips, and Trends",
 };
+export const metadata = {
+  title: "AI Tools Hub",
+  description: "Explore the future with AI tools, tips, and trends!",
+  other: {
+    "google-site-verification": "YAHAN_APNA_CODE_DALO"
+  }
+};
 
 export default function RootLayout({
   children,
