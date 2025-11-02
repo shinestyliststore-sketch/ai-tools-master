@@ -33,11 +33,12 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark">
       <head>
-        <Script
+      <script 
           async
+        
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2753365010882256"
           crossOrigin="anonymous"
-          strategy="afterInteractive"
+          
         />
       </head>
       <body
