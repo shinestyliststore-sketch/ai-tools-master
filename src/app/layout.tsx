@@ -12,16 +12,11 @@ const poppins = Poppins({
   weight: ["400", "500", "600", "700"],
   variable: "--font-poppins",
 });
-
-export const metadata: Metadata = {
-  title: "AI Tools Master",
-  description: "Explore the Future with AI — Tools, Tips, and Trends",
-};
 export const metadata = {
   title: "AI Tools Hub",
   description: "Explore the future with AI tools, tips, and trends!",
   other: {
-    "google-site-verification": "YAHAN_APNA_CODE_DALO"
+    "google-adsense-account": "ca-pub-2753365010882256"
   }
 };
 
@@ -33,13 +28,8 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark">
       <head>
-         <meta name="google-adsense-account"
-       content="ca-pub-2753365010882256" />
-          <script />
-            async
-         src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2753365010882256"
-          crossOrigin="anonymous"
-        ></script>
+          <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2753365010882256"
+     crossorigin="anonymous"></script>
       </head>
       <body
         className={cn(
